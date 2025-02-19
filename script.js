@@ -1,38 +1,3 @@
-// // Function to generate a random hexadecimal color
-// function getRandomColor() {
-//     let letters = "0123456789ABCDEF";
-//     let color = "#";
-//     for (let i = 0; i < 6; i++) {
-//         color += letters[Math.floor(Math.random() * 16)];
-//     }
-//     return color;
-// }
-
-// // Select the box and button
-// const colorBox = document.getElementById("colorBox");
-// const changeColorBtn = document.getElementById("changeColorBtn");
-
-// // Add event listener to button
-// changeColorBtn.addEventListener("click", () => {
-//     let newColor = getRandomColor(); // Generate random color
-//     colorBox.style.backgroundColor = newColor; // Change box color
-// });let autoChangeInterval; // Store the interval ID
-// const autoChangeBtn = document.getElementById("autoChangeBtn");
-
-// // Function to start or stop auto color change
-// autoChangeBtn.addEventListener("click", () => {
-//     if (!autoChangeInterval) {
-//         autoChangeInterval = setInterval(() => {
-//             let newColor = getRandomColor();
-//             colorBox.style.backgroundColor = newColor;
-//         }, 1000); // Change color every 1 second
-//         autoChangeBtn.textContent = "Stop Auto Change"; // Update button text
-//     } else {
-//         clearInterval(autoChangeInterval); // Stop changing colors
-//         autoChangeInterval = null;
-//         autoChangeBtn.textContent = "Start Auto Change"; // Reset button text
-//     }
-// });
 
 // Function to generate a random hexadecimal color
 function getRandomColor() {
